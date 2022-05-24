@@ -1,0 +1,340 @@
+// header section
+
+.head{
+    background-color: #DC3C45;
+    padding: 0.8rem;
+    
+}
+.brand{
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    padding: 1.3rem 1rem;
+    font-weight: 400;
+    &:hover{
+        color: yellowgreen;
+    }
+}
+.menu-list a {
+    padding: 1.3rem 1rem; 
+    color: #ffffff;
+    font-size: 1.3rem;
+    &:hover{
+        color: blue;
+    }
+}
+// Menu bar
+.sub-head{
+    background-color:#F2F2F2 ;
+    padding: 1.1rem;
+}
+.main-brand{
+    color: #EB5F61;
+    font-size: 1.5rem;
+    font-weight: 900;
+    text-decoration: none;
+    strong{
+        color: #1B1E24;
+    }
+    &:hover{
+        color: orangered;
+    }
+}
+.sub-nav{
+    li, a{
+        text-decoration: none;
+        padding:0.5rem 0.3rem ;
+        color: blue;
+        font-size: 1.0rem;
+        font-weight: 900;
+        }
+         a:hover{
+            width: 100vw;
+            height: 100vh;
+            background-color:#EB5F61 ;
+            color: #ffffff;
+            padding: 1.8rem 1.3rem;
+        }
+}
+select{
+    margin: 0 0.5rem;
+    border: 0;
+    color: blue;
+    font-size: 1.0rem;
+    font-weight: 800;
+    border: 1px solid #F2F2F2;
+    background-color:#F2F2F2 ;
+    
+}
+.banner{
+    background: url(assets/media/banner-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    padding-top: 80px;
+    
+    
+}
+h1{
+    font-size: 4rem;
+    color: black;
+    font-size: 4rem;
+    font-weight: 900;
+    line-height: 1.1;
+    padding-top: 10rem ;
+    padding-left: 1.3rem;
+    margin-bottom: 0.5rem;
+}
+.para1{
+     font-size: 1.5rem;
+     color: #aca7a7;
+     font-weight: 500;
+     padding-left: 1.3rem;
+     margin-bottom: 0.5rem;
+}
+.btn{
+background-color: #DC3C45;
+font-size: 1.0rem;
+font-weight: 700;
+color: #ffffff;
+border: 0;
+border-radius: 20px;
+margin-left: 1.3rem;
+padding: 1.0rem 1.1rem;
+margin-bottom: 0.5rem;
+}
+// services section
+.heading{
+    text-align: center;
+    h2{
+        font-size: 4rem;
+        color: black;
+        font-weight: 900;
+   
+    }
+   .para2{
+       font-size: 1.5rem;
+       color: #8b8686;
+       font-size: 600;
+   } 
+}
+img[alt="image"]{
+    width: 40px;
+    height: 40px;
+}
+.box-model{
+    border: 1px solid #8b8686;
+    padding: 1.5rem 0;
+    border-radius: 8px;
+    
+    p{
+        padding: 1.2rem 0;
+        font-weight: 700;
+    }
+    h3{
+        font-size: 1.5rem;
+        font-weight: 900;
+    }
+    
+}
+.btn-primary{
+    background-color: #ffffff !important;
+    color: red !important;
+    border: 2px solid red!important;
+    padding: 0.5rem 0.8rem;
+    border-bottom: 1px solid red !important;
+    
+ }
+ .btn:hover{
+     background-color: blue;
+     color: #ffffff;
+ }
+ .btn-primary:hover{
+    background-color: blue !important;
+    color: #ffffff !important;
+ }
+//  solution section
+.solution{
+    background-color: #F8F9FA;
+}
+//  consulting section
+img[alt="figure"]{
+     width: 600px;
+     height: 300px;
+     width: 100%;
+}
+.secondary{
+    border-top: 2px solid red !important;
+    border-bottom: 0.2px solid red !important;
+}
+.consult{
+    text-align: center;
+    h3{
+        font-size: 2.1rem;
+        font-weight: 900;
+        line-height: 1.1;
+        padding: 1.1rem 0;
+    }
+    p{
+        font-size: 1.2rem;
+        font-weight: 500;
+        color: #1B1E24;
+        margin-bottom: 0.7rem;
+    }
+}
+// Business consulting
+.con-service{
+    background-color: #DC3C45;
+    border-radius: 8px;
+    padding: 1.3rem 0.8rem;
+    h3{
+        font-size: 1.2rem;
+        font-weight: 800;
+        display: inline-block;
+        color: #ffffff;
+        
+        
+    }
+    p{
+        color: #ffffff;
+    }
+    
+}
+.triacy{
+     padding-left: 1.5rem;
+     float: right;
+     margin-top: 1.2rem;
+    
+}
+.kund{
+    h3{
+        font-size: 2rem;
+        font-weight: 900;
+        color: black;
+        margin-bottom: 0.6rem;
+    }
+    p{
+        color: #8b8686;
+    }
+}
+// clients
+.client{
+    background-color:#F8F9FA;
+    margin-bottom: 1.1rem;
+}
+img[alt="images"]{
+    width: 75px;
+    height: 50px;
+    
+}
+// footer
+.footer{
+    background-color: #1B1E24;
+    padding: 1.4rem 0;
+    h3{
+        color: #ffffff;
+        font-size: 1.2rem;
+        font-weight: 600;
+        margin-bottom: 1.0rem;
+    }
+    ul, li{
+        font-size: 1.0rem;
+        text-align: none;
+        color: #ffffff;
+        font-weight: 400;
+        padding-top: 0.4rem;
+    }
+    ul, li:hover{
+        color: red;
+        cursor: pointer;
+    }
+    li, a{
+        font-size: 1.0rem;
+        text-align: none;
+        color: #ffffff;
+        font-weight: 400;
+        padding: 0.4rem 0.2rem;
+        text-decoration: none;
+    }
+    a:hover{
+        color: blue;
+        cursor: pointer;
+    }
+}
+.sub-footer{
+    text-align: center;
+    padding-top: 2.1rem;
+    blockquote{
+        font-size: 1.2rem;
+        color: #ffffff;
+        font-weight: 800;
+        
+    }
+}
+// Responsive layout styles
+@media  screen and (max-width:768px) {
+
+    .flex-100{
+        flex: 1 1 100%;
+    }
+    html{
+        font-size: 10px;
+    }
+    .wrap{
+        flex-wrap: wrap;
+    }
+    h1,h2,h3,h4,h5{
+        text-align: center;
+        font-size: 2rem;
+        margin-bottom: 0.8rem;
+    }
+    p{
+        text-align: center;
+        font-size: 1.1rem;
+        margin-bottom: 01.8rem;
+    }
+    .btn{
+        text-align: center;
+        margin-bottom: 0.8rem;
+    }
+    
+    ul, li{
+        text-align: center;
+    }
+    .wraps{
+        display: block;
+    }
+    img{
+        width: 100%;
+    }
+    .wraps, a{
+        text-align: center;
+        font-size: 0.8rem;
+        display: inline-block;
+    }
+    .nav, ul{
+        text-align: center;
+    }
+    .menu-list, a{
+        text-align: center;
+        font-size: 0.8rem;
+        display: inline-block;
+    }
+    #menu-item, i{
+        text-align: center;
+        font-size: 0.8rem;
+        display: inline-block;
+    }
+    #social{
+        text-align: center;
+    }
+    .sub-nav-list{
+        text-align: center;
+        display: inline-block;
+    }
+    
+
+
+}
